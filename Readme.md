@@ -1,3 +1,4 @@
+# Repository for testing jshell
 	String intToBinaryWithSeparator(int n, String separator) {
 		String str = String.format("%032d", new java.math.BigInteger(Integer.toBinaryString(n)));
 
@@ -21,3 +22,4 @@ byte b = 127;
 char c = 'B';
 b = (byte) n;
 c = (char) n;
+### After errors fixed
